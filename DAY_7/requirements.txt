@@ -1,0 +1,29 @@
+# Violence Detection AI System - Requirements
+# Production-ready dependencies for Flask-based detection system
+
+# Web Framework
+Flask>=3.0.0
+Werkzeug>=3.0.1
+
+# Computer Vision & ML
+ultralytics>=8.0.238
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Security & Hashing
+python-dotenv>=1.0.0
+
+# Production Server (uncomment for production)
+# gunicorn>=21.2.0
+# python-multipart>=0.0.6
+
+# Development Tools (optional)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.0.0
+
+# GPU Support (optional - uncomment if using CUDA)
+# torch>=2.0.0
+# torchvision>=0.15.0
